@@ -1,0 +1,29 @@
+.reviews-container {
+  /* margin-left: 14%;
+  margin-right: 8%; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.reviews-headers {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.reviews-title {
+  flex: 1;
+  font-family: Libre Baskerville;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.review-count {
+  color: #ffffff;
+  margin-right: 10%;
+}

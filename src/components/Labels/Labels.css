@@ -1,0 +1,21 @@
+.circular-labels-container {
+  display: flex;
+  height: 100%;
+}
+
+.circular-label {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  min-height: 200px;
+  min-width: 200px;
+  border: 1px solid #ffffff80;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  color: #ffffff;
+}
+.first {
+  border-color: #dd4cac #dd4cac #ffffff80;
+}

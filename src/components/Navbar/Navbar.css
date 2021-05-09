@@ -1,0 +1,86 @@
+.appbar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.appbar-container .MuiToolbar-gutters {
+  padding: 0;
+  margin-right: 11%;
+}
+@media screen and (max-width: 480px) {
+  .appbar-container .MuiToolbar-gutters {
+    margin-right: 0;
+  }
+}
+
+.MuiToolbar-root {
+  justify-content: space-between;
+}
+
+.appbar-container .MuiAppBar-colorPrimary {
+  background-color: transparent;
+  box-shadow: none;
+  position: fixed;
+}
+
+.appbar-right {
+  display: flex;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 480px) {
+  .appbar-right {
+    margin-right: 2%;
+  }
+}
+
+.search-icon {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.search-text {
+  margin-left: 10px;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.appbar-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bag-icon {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.appbar-link a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .appbar-link {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-text {
+    display: none;
+  }
+}

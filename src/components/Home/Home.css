@@ -1,0 +1,63 @@
+.home-container {
+  width: 100%;
+  background-image: url(../../assets/hero-banner.png);
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 480px) {
+  .home-container {
+    background-image: url(../../assets/hero-banner-sm.png);
+    background-size: 100%;
+  }
+}
+
+.home-container-fluid {
+  margin-left: 14%;
+  margin-right: 8%;
+}
+
+@media screen and (max-width: 480px) {
+  .home-container-fluid {
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+}
+.hero-banner-content {
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 48px) {
+  .hero-banner-content {
+    margin-top: 300px;
+  }
+}
+
+.content-heading {
+  font-family: Libre Baskerville;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.content-text {
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.6;
+  color: #ffffff;
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .content-text {
+    width: auto;
+  }
+}

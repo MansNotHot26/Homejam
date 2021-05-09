@@ -1,0 +1,89 @@
+.review-card-container {
+  background: linear-gradient(143.63deg, #276c73 5.43%, #5293e8 110.6%);
+  border-radius: 16px;
+  border: 0;
+  margin-right: 20px;
+  /* height: min-content; */
+  padding-top: 3px;
+}
+.review-card-details {
+  display: flex;
+  align-items: center;
+}
+
+.review-card-container .MuiPaper-root {
+  padding: 20px;
+  border: 2px solid #e5af56;
+  box-sizing: border-box;
+  background-color: black;
+  margin: 5px 5px 0px 0px;
+  color: #ffffff;
+  background: #111229;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.review-card-image {
+  object-fit: contain;
+  height: 48px;
+  width: 48px;
+}
+
+.review-card-name {
+  max-width: 5px;
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.review-card-country-flag {
+  margin-right: 5px;
+}
+
+.review-card-country {
+  color: #e5c558;
+}
+
+.review-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 6px;
+  width: fit-content;
+  border-radius: 1px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.review-card-container .MuiTypography-h5 {
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.review-card-name {
+  font-family: Libre Baskerville;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.review-card-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-card-country-detail {
+  display: flex;
+}
